@@ -1,0 +1,16 @@
+{
+  "name": "strategyMaker",
+  "version": "1.0.0",
+  "description": "strategy maker for mib robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc less/main.less > css/main.css && coffee --compile --output js/ coffee/"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee": "^1.0.0",
+    "less": "^2.5.0"
+  }
+}

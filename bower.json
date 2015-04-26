@@ -1,0 +1,25 @@
+{
+  "name": "strategyMaker",
+  "version": "0.0.1",
+  "authors": [
+    "fabien0102 <fabien0102@planee.fr>"
+  ],
+  "description": "strategy maker for mib robot",
+  "main": "index.js",
+  "keywords": [
+    "mib",
+    "gobgob"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "EaselJS": "~0.8.0",
+    "bootstrap": "~3.3.4"
+  }
+}

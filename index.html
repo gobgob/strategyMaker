@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Strategy maker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<canvas id="table" width="3300" height="2300"></canvas>
+
+<div id="position">
+    x <span data-ui="x" class="badge">0</span> y <span data-ui="y" class="badge">0</span> α <span data-ui="alpha"
+                                                                                                  class="badge">0</span>
+</div>
+
+<pre id="script"></pre>
+
+<table id="info" class="table table-hover">
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><code>CLICK</code></td>
+        <td>Write position/rotation into Python output</td>
+    </tr>
+    <tr>
+        <td><code>SPACE</code></td>
+        <td>Fire</td>
+    </tr>
+    <tr>
+        <td><code>LEFT/RIGHT</code></td>
+        <td>Rotate</td>
+    </tr>
+    <tr>
+        <td><code>ENTER</code></td>
+        <td>Clear</td>
+    </tr>
+    <tr>
+        <td><code>G</code></td>
+        <td>Show/hide the grid</td>
+    </tr>
+</table>
+
+<!-- Libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/easeljs-0.8.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
