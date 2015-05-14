@@ -110,23 +110,23 @@ table.addChild torchStand
 
 # Torchs
 torchsList = [
-  {color: "#68c745", x: 90, y: 200}
-  {color: "#68c745", x: 850, y: 100}
-  {color: "#68c745", x: 850, y: 200}
-  {color: "#68c745", x: 870, y: 1355}
-  {color: "#68c745", x: 90, y: 1750}
-  {color: "#68c745", x: 90, y: 1850}
-  {color: "#68c745", x: 1300, y: 1400}
-  {color: "#68c745", x: 1100, y: 1770}
+  {color: "#fdfc01", x: 90, y: 200}
+  {color: "#fdfc01", x: 850, y: 100}
+  {color: "#fdfc01", x: 850, y: 200}
+  {color: "#fdfc01", x: 870, y: 1355}
+  {color: "#fdfc01", x: 90, y: 1750}
+  {color: "#fdfc01", x: 90, y: 1850}
+  {color: "#fdfc01", x: 1300, y: 1400}
+  {color: "#fdfc01", x: 1100, y: 1770}
 
-  {color: "#fdfc01", x: 2910, y: 200}
-  {color: "#fdfc01", x: 2150, y: 100}
-  {color: "#fdfc01", x: 2150, y: 200}
-  {color: "#fdfc01", x: 2130, y: 1355}
-  {color: "#fdfc01", x: 2910, y: 1750}
-  {color: "#fdfc01", x: 2910, y: 1850}
-  {color: "#fdfc01", x: 1700, y: 1400}
-  {color: "#fdfc01", x: 1900, y: 1770}
+  {color: "#68c745", x: 2910, y: 200}
+  {color: "#68c745", x: 2150, y: 100}
+  {color: "#68c745", x: 2150, y: 200}
+  {color: "#68c745", x: 2130, y: 1355}
+  {color: "#68c745", x: 2910, y: 1750}
+  {color: "#68c745", x: 2910, y: 1850}
+  {color: "#68c745", x: 1700, y: 1400}
+  {color: "#68c745", x: 1900, y: 1770}
 ]
 
 torchs = new createjs.Shape()
