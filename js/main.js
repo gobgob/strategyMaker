@@ -384,7 +384,7 @@
     x = event.stageY - table.y;
     y = event.stageX - table.x - 1500;
     alpha = Math.abs((360 - robotContainer.rotation) % 360);
-    $("#script").append("robot.goto(" + x + "," + y + ",(pi/180)*" + alpha + ")<br>");
+    $("#script").append("robot.goto(" + x + ", " + y + ", (pi/180)*" + alpha + ", autocolor = True)<br>");
     if (oldX) {
       path.graphics.beginStroke("red").setStrokeStyle(15, "round").moveTo(oldX, oldY).lineTo(event.stageX - table.x, event.stageY - table.y);
       path.graphics.beginStroke("rgba(255, 0, 0, 0.3)").setStrokeStyle(180, "round").moveTo(oldX, oldY).lineTo(event.stageX - table.x, event.stageY - table.y);

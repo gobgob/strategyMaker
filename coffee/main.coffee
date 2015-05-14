@@ -220,7 +220,7 @@ stage.on "click", (event) ->
   x = event.stageY - table.y
   y = event.stageX - table.x - 1500
   alpha = Math.abs (360 - robotContainer.rotation) % 360
-  $("#script").append "robot.goto(" + x + "," + y + ",(pi/180)*" + alpha + ")<br>"
+  $("#script").append "robot.goto(" + x + ", " + y + ", (pi/180)*" + alpha + ", autocolor = True)<br>"
 
   # Draw path
   if oldX
